@@ -1,5 +1,3 @@
-
-puts @root
 @root = ENV['RACK_ROOT'] || Dir.pwd
 
 run Proc.new { |env|
