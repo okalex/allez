@@ -1,6 +1,6 @@
-# Allez
+# Allez - Multi-language dev app launcher
 
-Allez is a command-line tool to start development app servers in a number of languages. To start
+Allez (pronounced aah-lay) is a command-line tool to start development app servers in a number of languages. To start
 a server, simply navigate to the app directory and type `allez`. This will start the server on
 localhost, port 8080 by default.
 
