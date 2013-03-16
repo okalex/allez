@@ -17,8 +17,8 @@ if you'd like to contribute. Some long-term goals for the project:
 
 ## Options
 
-* --port=<number>, -p <number> Specify a different port number
-* --dir=<app dir>, -d <app dir> Specify an app directory other than the current working directory
+* `--port=<number>`, `-p <number>` Specify a different port number
+* `--dir=<app dir>`, `-d <app dir>` Specify an app directory other than the current working directory
 
 ## Supported languages
 
