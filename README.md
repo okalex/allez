@@ -14,6 +14,7 @@ if you'd like to contribute. Some long-term goals for the project:
 * Language version manager integration (rvm/rbenv, nvm, etc.)
 * Additional languages: Python, Java, Go, Erlang
 * Make it a gem
+* Add tests
 
 ## Options
 
