@@ -4,9 +4,16 @@ require 'trollop'
 require 'allez'
 
 opts = Trollop::options do
-  opt :port, 'Port number', :short => '-p', :default => 8080
+  opt :port, 'Port number', :short => '-p', :type => :integer
   opt :dir, 'App directory', :short => '-d', :default => Dir.pwd
+  opt :config, 'Config file', :short => '-c', :type => :string
 end
 
-app = Allez::App.new(opts[:dir], opts[:port])
+defaults = Allez::Config.new("#{ENV['HOME']}/.allez/config")
+config_file = opts[:config] || "#{opts[:dir]}/.allez"
+app_configs = Allez::Config.new(config_file)
+
+port = opts[:port] || app_configs['port'] || defaults['port'] || 8080
+
+app = Allez::App.new(opts[:dir], port)
 app.start
