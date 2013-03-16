@@ -23,7 +23,7 @@ if you'd like to contribute. Some long-term goals for the project:
 
 ## Supported languages
 
-* **PHP** - Allez looks for an index.php file
+* **PHP** - Allez looks for an index.php file (currently requires PHP 5.4)
 * **Ruby/Rack** - Allez looks for a config.ru file
 * **Node** - Allez looks for app.js or server.js files
 * **Static** - All other types will currently be served as static files. This allows you to serve static
