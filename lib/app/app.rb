@@ -1,4 +1,6 @@
-Dir[File.expand_path('./*.rb', File.dirname(__FILE__))].each {|file| require file }
+Dir[File.expand_path('./*.rb', File.dirname(__FILE__))].each do |file|
+  require file
+end
 
 module Allez
   class App
