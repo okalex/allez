@@ -13,7 +13,7 @@ if you'd like to contribute. Some long-term goals for the project:
 * Support for .allez file in app directory for default app configuration
 * Language version manager integration (rvm/rbenv, nvm, etc.)
 * Additional languages: Python, Java, Go, Erlang
-* Make it a gem
+* Auto-create *.dev domains a la Pow
 
 ## Options
 
@@ -31,7 +31,11 @@ if you'd like to contribute. Some long-term goals for the project:
 
 ## Installation
 
-Installation is currently rudimentary. Just clone allez by running `git clone 
-git@github.com:okalex/allez.git` and add `allez/bin` to your path. You will 
-also need to `cd` to the allez directory and run `bundle install`. This will be 
-improved in the future.
+```
+git clone git@github.com:okalex/allez.git
+cd allez
+gem build allez.gemspec
+gem install ./allez-0.0.1.gem
+```
+
+**NOTE:** This will be added to rubygems soon.
