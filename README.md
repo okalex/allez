@@ -10,7 +10,6 @@ but I will improve upon it in the future. Feel free to submit a pull request
 if you'd like to contribute. Some long-term goals for the project:
 
 * Install runtime environments and servers by running `allez install`
-* Support for .allez file in app directory for default app configuration
 * Language version manager integration (rvm/rbenv, nvm, etc.)
 * Additional languages: Python, Java, Go, Erlang
 * Auto-create *.dev domains a la Pow
