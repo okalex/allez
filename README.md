@@ -9,6 +9,7 @@ to the app directory and type `allez`. This will start the server on
 but I will improve upon it in the future. Feel free to submit a pull request 
 if you'd like to contribute. Some long-term goals for the project:
 
+* Heroku buildpack support (https://devcenter.heroku.com/articles/buildpack-api)
 * Install runtime environments and servers by running `allez install`
 * Language version manager integration (rvm/rbenv, nvm, etc.)
 * Additional languages: Python, Java, Go, Erlang
